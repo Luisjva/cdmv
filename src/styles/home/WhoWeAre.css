@@ -17,3 +17,9 @@
 	font-size: 18px;
 	line-height: 24px;
 }
+
+@media (max-width: 768px) {
+	.who-we-are__container {
+		grid-template-columns: 1fr;
+	}
+}
