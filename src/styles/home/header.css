@@ -1,0 +1,26 @@
+.home__header {
+	background-image: url("/images/header.png");
+	background-size: cover;
+	background-position: center;
+	min-height: 80vh;
+}
+
+.home__header__content {
+	color: white;
+	width: 50%;
+	margin-left: auto;
+}
+
+.home__header__content h1 {
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 72px;
+	letter-spacing: -3%;
+}
+
+.home__header__content p {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 32px;
+	letter-spacing: -3%;
+}

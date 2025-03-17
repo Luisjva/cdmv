@@ -1,0 +1,60 @@
+.complaint-form {
+	position: relative;
+	color: white;
+	padding: 76px 0;
+}
+
+.complaint-form__container {
+	width: 60%;
+	position: relative;
+	z-index: 100;
+}
+
+.complaint-form__container h2 {
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 72px;
+}
+
+.complaint-form__container .mantine-TextInput-input,
+.complaint-form__container .mantine-Textarea-input,
+.complaint-form__container .mantine-Select-input {
+	background: #3e8eff;
+	border-radius: 8px;
+	border: 1px solid #70a4ec;
+	color: white;
+	height: 48px;
+}
+
+.complaint-form__container .mantine-TextInput-input::placeholder,
+.complaint-form__container .mantine-Textarea-input::placeholder,
+.complaint-form__container .mantine-Select-input::placeholder {
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 100%;
+}
+
+.complaint-form__image {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	object-fit: cover;
+	height: 111%;
+}
+
+.complaint-form__button {
+	width: 252px;
+	height: 48px;
+	border-radius: 8px;
+	padding: 16px 32px;
+	margin-top: 32px;
+	display: inline-block;
+	background: #ffee00;
+	color: #0567f1;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 16px;
+	letter-spacing: 10%;
+	text-transform: uppercase;
+	text-align: center;
+}

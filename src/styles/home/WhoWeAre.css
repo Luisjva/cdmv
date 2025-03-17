@@ -1,0 +1,19 @@
+.who-we-are__container {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 64px;
+	align-items: center;
+}
+
+.who-we-are__container > h2 {
+	text-align: right;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 72px;
+}
+
+.who-we-are__container > p {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+}
