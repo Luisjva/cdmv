@@ -9,7 +9,9 @@ export const Header = () => {
 				<div className="home__header__content">
 					<h1>Denuncia ya las deportaciones injustas.</h1>
 					<p>Hazlo antes de que sea tarde.</p>
-					<Link href="#Denuncia">DENUNCIAR AHORA</Link>
+					<Link href="#Denuncia" className="home__header__button">
+						DENUNCIAR AHORA
+					</Link>
 				</div>
 			</div>
 		</div>

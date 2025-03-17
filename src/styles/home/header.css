@@ -3,12 +3,26 @@
 	background-size: cover;
 	background-position: center;
 	min-height: 80vh;
+	margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .home__header__content {
 	color: white;
 	width: 50%;
 	margin-left: auto;
+
+	width: 608;
+	height: 472;
+	top: 264px;
+	left: 712px;
+	border-radius: 40px;
+	gap: 8px;
+	padding: 40px;
+
+	backdrop-filter: blur(36px);
+	background: #0567f11a;
 }
 
 .home__header__content h1 {
@@ -23,4 +37,23 @@
 	font-size: 32px;
 	line-height: 32px;
 	letter-spacing: -3%;
+	width: 50%;
+	margin-top: 25px;
+}
+
+.home__header__button {
+	width: 263px;
+	height: 48px;
+	border-radius: 8px;
+	padding: 16px 32px;
+	gap: 8px;
+	background: #ffee00;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 16px;
+	letter-spacing: 10%;
+	text-transform: uppercase;
+	color: #0567f1;
+	display: inline-block;
+	margin-top: 25px;
 }
