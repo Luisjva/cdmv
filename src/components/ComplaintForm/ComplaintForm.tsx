@@ -28,7 +28,7 @@ export const ComplaintForm = () => {
 			descripcion: "",
 		},
 		validationSchema,
-		onSubmit: (values) => {
+		onSubmit: () => {
 			setIsLoading(true);
 			setTimeout(() => {
 				setIsLoading(false);
@@ -59,6 +59,7 @@ export const ComplaintForm = () => {
 										"Otro",
 									]}
 									{...formik.getFieldProps("denunciante")}
+									value={formik.values.denunciante}
 									error={
 										formik.touched.denunciante && formik.errors.denunciante
 									}
@@ -109,9 +110,10 @@ export const ComplaintForm = () => {
 								<Button
 									type="submit"
 									className="complaint-form__button"
-									disabled={isLoading}
+									loading={isLoading}
+									loaderProps={{ color: colors.primary }}
 								>
-									{isLoading ? "ENVIANDO..." : "ENVIAR DENUNCIA"}
+									ENVIAR DENUNCIA
 								</Button>
 							</Grid.Col>
 						</Grid>
