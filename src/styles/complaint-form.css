@@ -58,3 +58,26 @@
 	text-transform: uppercase;
 	text-align: center;
 }
+
+.mantine-TextInput-error,
+.mantine-Textarea-error,
+.mantine-Select-error {
+	color: #ffee00;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+@media (max-width: 768px) {
+	.complaint-form__container {
+		width: 100%;
+		padding: 50px 0;
+	}
+	.complaint-form__image {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		object-fit: cover;
+		height: 111%;
+	}
+}

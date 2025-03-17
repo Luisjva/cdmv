@@ -34,3 +34,20 @@
 	text-transform: uppercase;
 	text-align: center;
 }
+
+@media (max-width: 768px) {
+	.complaint {
+		gap: 32px;
+		padding: 32px 10px;
+		margin: 144px 0;
+		background-color: #0567f114;
+	}
+	.complaint > h2 {
+		font-size: 50px;
+		line-height: 50px;
+	}
+
+	.complaint__button {
+		width: auto;
+	}
+}

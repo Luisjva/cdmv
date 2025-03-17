@@ -11,9 +11,11 @@
   "dependencies": {
     "@mantine/core": "^7.17.2",
     "@mantine/hooks": "^7.17.2",
+    "formik": "^2.4.6",
     "next": "15.2.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
